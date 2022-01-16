@@ -1,6 +1,6 @@
 services:
   wolfpack-bot:
-    build: .
+    image: alex9158/ttbot:latest
     volumes:
       - "${TTBot_LOCAL_DIRECTORY}:/data/ttbot"
     environment:
