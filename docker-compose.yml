@@ -1,8 +1,8 @@
 services:
   wolfpack-bot:
-  image: alex9158/ttbot:latest
-  volumes:
-    - "${TTBot_LOCAL_DIRECTORY}:/data/ttbot"
+    image: alex9158/ttbot:latest
+    volumes:
+      - "${TTBot_LOCAL_DIRECTORY}:/data/ttbot"
     environment:
       - TTBot_CONNECTION_STRING=${TTBot_CONNECTION_STRING}
       - TTBot_TOKEN=${TTBot_TOKEN}
