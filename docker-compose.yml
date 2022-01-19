@@ -8,6 +8,10 @@ services:
       - TTBot_TOKEN=${TTBot_TOKEN}
       - TTBot_DATA_DIRECTORY=${TTBot_DATA_DIRECTORY}
       - TTBot_DISABLE_TWITTER=${TTBot_DISABLE_TWITTER}
+      - TTBot_CONSUMER_KEY=${TTBot_CONSUMER_KEY}
+      - TTBot_CONSUMER_SECRET=${TTBot_CONSUMER_SECRET}
+      - TTBot_ACCESS_KEY=${TTBot_ACCESS_KEY}
+      - TTBot_ACCESS_SECRET=${TTBot_ACCESS_SECRET}
   fileserver:
     image: emazzotta/simple-fileserver-docker
     volumes:
